@@ -17,10 +17,10 @@ maintainers:
     email: joram@mattermost.com
   - name: stylianosrigas
     email: stylianos@mattermost.com
-source:
+sources:
   - https://github.com/mattermost/mattermost-server
   - https://github.com/mattermost/mattermost-helm
-dependency:
+dependencies:
   - name: mysqlha
     repository: https://charts.helm.sh/incubator
     version: 2.0.0
