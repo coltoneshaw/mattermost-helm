@@ -17,7 +17,7 @@ maintainers:
     email: carlos@mattermost.com
   - name: jwilander
     email: joram@mattermost.com
-dependency:
+dependencies:
   - name: mysql
     version: 1.6.4
     repository: https://charts.helm.sh/stable
