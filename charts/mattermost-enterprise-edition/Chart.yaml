@@ -20,7 +20,7 @@ maintainers:
 source:
   - https://github.com/mattermost/mattermost-server
   - https://github.com/mattermost/mattermost-helm
-dependencies:
+dependency:
   - name: mysqlha
     repository: https://charts.helm.sh/incubator
     version: 2.0.0
