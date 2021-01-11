@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-readonly CT_VERSION=v2.4.1
+readonly CT_VERSION=v3.3.1
 readonly KIND_VERSION=v0.8.1
 readonly CLUSTER_NAME=mattermost-helm-test
 
