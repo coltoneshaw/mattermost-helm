@@ -1,0 +1,26 @@
+update helm version to 3.4.2
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch bump-te-version
+# Your branch is up to date with 'origin/bump-te-version'.
+#
+# Changes to be committed:
+#	modified:   .circleci/install_tools.sh
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/.circleci/install_tools.sh b/.circleci/install_tools.sh
+index cfe56b8..43bbcb5 100755
+--- a/.circleci/install_tools.sh
++++ b/.circleci/install_tools.sh
+@@ -2,7 +2,7 @@
+ 
+ set -o errexit
+ 
+-readonly HELM_VERSION=2.16.7
++readonly HELM_VERSION=3.4.2
+ readonly CHART_RELEASER_VERSION=1.0.0-beta.1
+ 
+ echo "Installing Helm..."
